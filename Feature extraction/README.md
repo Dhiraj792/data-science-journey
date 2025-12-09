@@ -1,5 +1,5 @@
 ## Dataset
 
 
-Full dataset (98 MB):
+Full dataset:
 🔗 https://www.kaggle.com/c/digit-recognizer
