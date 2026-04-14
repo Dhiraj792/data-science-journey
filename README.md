@@ -1,190 +1,231 @@
-# data-science-journey
-Social Network Data Cleaning (Python)
+# 📊 Data Science Journey 🚀
 
-This project demonstrates how to clean and process social network data using pure Python. It works with a sample dataset of users, their friendships, and the pages they like.
+## Social Network Data Cleaning & Recommendation System (Python)
 
-Files in this Repository
+This project demonstrates how to **clean, process, and analyze social network data using Python**.
+It also implements basic **recommendation systems** for suggesting pages and friends.
 
-data.json
-Contains the raw dataset with two main sections:
+---
 
-users: each user’s id, name, list of friends, and liked pages.
+# 📌 Project Overview
 
-pages: page id and name for different communities (Python, Data Science, AI/ML, Web Dev, etc.).
+This project works with a social network dataset containing:
 
-introduction.ipynb
-A Jupyter Notebook with Python code to:
+* Users and their friendships
+* Pages liked by users
 
-Load the data.json file
+It performs:
 
-Clean and preprocess the dataset
+* Data cleaning and preprocessing
+* Relationship analysis
+* Recommendation generation
 
-Explore relationships between users and pages
+---
 
-Prepare the data for further analysis (e.g., recommendation systems, graph analysis)
+# 📂 Repository Structure
 
-Requirements
+```
+data-science-journey/
+│── data.json
+│── massive.json
+│── introduction.ipynb
+│── pagesyoumightlike.ipynb
+│── peopleyoumayknow.ipynb
+│── README.md
+```
 
-Python 3.x
+---
 
-Jupyter Notebook
+# 📁 Files Description
 
-No external libraries required (code uses only Python built-ins)
+### 🔹 data.json
 
-Usage
+Contains raw dataset:
 
-Clone this repository:
+* Users (id, name, friends, liked pages)
+* Pages (id, name)
 
+---
+
+### 🔹 introduction.ipynb
+
+* Loads dataset
+* Cleans and preprocesses data
+* Explores relationships
+* Prepares data for analysis
+
+---
+
+### 🔹 pagesyoumightlike.ipynb
+
+Implements **Page Recommendation System**
+
+* Uses collaborative filtering
+* Suggests pages based on shared interests
+
+---
+
+### 🔹 peopleyoumayknow.ipynb
+
+Implements **Friend Recommendation System**
+
+* Uses mutual connections
+* Suggests potential friends
+
+---
+
+# 📊 Data Structure
+
+## Users
+
+```json
+{
+  "id": 1,
+  "name": "Amit",
+  "friends": [2, 3],
+  "liked_pages": [101]
+}
+```
+
+## Pages
+
+```json
+{
+  "id": 101,
+  "name": "Python Developers"
+}
+```
+
+---
+
+# 🚀 Features
+
+## 1️⃣ Pages You Might Like
+
+* Based on **common interests**
+* Uses collaborative filtering
+* Ranks pages by relevance
+
+✔ Output: Ordered list of page IDs
+
+---
+
+## 2️⃣ People You May Know
+
+* Based on **mutual friends**
+* Uses friends-of-friends logic
+* Ranks users by number of shared connections
+
+✔ Output: Ordered list of user IDs
+
+---
+
+# 🧠 Algorithms Used
+
+## Page Recommendation
+
+* Compare user liked pages with others
+* Assign weights based on similarity
+* Recommend unseen pages
+
+---
+
+## Friend Recommendation
+
+* Find friends-of-friends
+* Count mutual connections
+* Rank users accordingly
+
+---
+
+# 🛠️ Requirements
+
+* Python 3.x
+* Jupyter Notebook
+
+✔ No external libraries required
+
+---
+
+# ⚙️ Installation & Setup
+
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
-
-Open the notebook:
-
-jupyter notebook introduction.ipynb
-
-
-Run the cells to explore and clean the dataset.
-
-Example Dataset
-
-A snippet from data.json:
-
-{
-  "users": [
-    {"id": 1, "name": "Amit", "friends": [2, 3], "liked_pages": [101]},
-    {"id": 2, "name": "Priya", "friends": [1, 4], "liked_pages": [102]}
-  ],
-  "pages": [
-    {"id": 101, "name": "Python Developers"},
-    {"id": 102, "name": "Data Science Enthusiasts"}
-  ]
-}
-📋 Project Overview
-This project provides two core social network analysis functionalities:
-
-Pages You Might Like - Recommends pages based on shared interests with friends
-
-People You May Know - Suggests potential friends based on mutual connections
-
-The system analyzes user relationships and page preferences to generate personalized recommendations.
-
-🚀 Features
-1. Page Recommendations (pagesyoumightlike.ipynb)
-Algorithm: Collaborative filtering based on shared liked pages
-
-Scoring: Pages are weighted by the number of shared interests with other users
-
-Output: Ordered list of page IDs from most to least relevant
-
-2. Friend Suggestions (peopleyoumayknow.ipynb)
-Algorithm: Friends-of-friends with mutual connection counting
-
-Scoring: Potential friends are ranked by number of mutual connections
-
-Output: Ordered list of user IDs from most to least relevant
-
-📊 Data Structure
-Users Schema
-json
-{
-  "id": "integer",
-  "name": "string",
-  "friends": ["array of user IDs"],
-  "liked_pages": ["array of page IDs"]
-}
-Pages Schema
-json
-{
-  "id": "integer", 
-  "name": "string"
-}
-🛠️ Installation & Setup
-Clone the repository
-
-bash
-git clone <your-repository-url>
-cd <repository-directory>
-Install dependencies
-
-bash
 pip install jupyterlab
-Run Jupyter Notebook
-
-bash
 jupyter lab
-📖 Usage
-Page Recommendations
-python
+```
+
+---
+
+# 📖 Usage
+
+## Page Recommendation
+
+```python
 from pagesyoumightlike import find_pages_you_might_like
 
-# Load data
 data = read_data("massive.json")
-
-# Get recommendations for user ID 1
 recommendations = find_pages_you_might_like(1, data)
-print(recommendations)  # Returns ordered list of page IDs
-Friend Suggestions
-python
+print(recommendations)
+```
+
+---
+
+## Friend Suggestions
+
+```python
 from peopleyoumayknow import find_people_you_may_know
 
-# Load data  
 data = load_data("massive.json")
-
-# Get suggestions for user ID 4
 suggestions = find_people_you_may_know(4, data)
-print(suggestions)  # Returns ordered list of user IDs
-🧠 Algorithm Details
-Page Recommendation Logic
-For each user, identify their liked pages
+print(suggestions)
+```
 
-Compare with other users' liked pages
+---
 
-For pages not already liked by the target user:
+# 📈 Sample Output
 
-Add weight equal to number of shared pages with each other user
+### Page Recommendations (User 1)
 
-Sort pages by total weight in descending order
+```
+[103, 105, 107, 104, 106, ...]
+```
 
-Friend Suggestion Logic
-Identify direct friends of the target user
+### Friend Suggestions (User 4)
 
-Find friends-of-friends (excluding direct friends)
+```
+[2, 7, 5, 10, 12, ...]
+```
 
-Count mutual connections for each potential friend
+---
 
-Sort by mutual connection count in descending order
+# 🎯 Learning Outcomes
 
-📈 Sample Data
-The project includes massive.json containing:
+Through this project, I learned:
 
-30 users with complex friendship networks
+* Data cleaning using Python
+* Working with JSON datasets
+* Graph-based relationship analysis
+* Building recommendation systems
+* Implementing logic without external libraries
 
-27 pages covering various tech interests
+---
 
-Realistic social connections and preferences
+# 🔧 Future Improvements
 
-🎯 Example Output
-Page Recommendations for User 1:
-text
-[103, 105, 107, 104, 106, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127]
-Friend Suggestions for User 4:
-text
-[2, 7, 5, 10, 12, 14, 11, 15]
-🔧 Customization
-Modify massive.json to add users, pages, or relationships
+* Add UI (Web/App)
+* Improve recommendation algorithms
+* Add visualization (network graphs)
+* Use ML-based recommendation models
+* Add user similarity metrics
 
-Adjust scoring algorithms in the respective notebook files
+---
 
-Extend functionality by adding new recommendation criteria
+# 🌟 Conclusion
 
-📝 Future Enhancements
-Add user interface for easier interaction
+This project demonstrates how raw social network data can be transformed into meaningful insights and recommendations using **core Python logic**.
 
-Implement more sophisticated recommendation algorithms
+---
 
-Add visualization of social networks
-
-Include page categories for better filtering
-
-Add user similarity metrics beyond page likes
+⭐ Part of my **Data Science learning journey**
