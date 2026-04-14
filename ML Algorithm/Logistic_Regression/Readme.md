@@ -12,7 +12,6 @@ In this notebook, I explored:
 * Drawing the **decision boundary**
 * Comparing results with **Logistic Regression**
 * Observing how data separation affects model performance
-
 ---
 
 # 1. Dataset Generation
