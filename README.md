@@ -6,7 +6,6 @@ This project demonstrates how to **clean, process, and analyze social network da
 It also implements basic **recommendation systems** for suggesting pages and friends.
 
 ---
-
 # 📌 Project Overview
 
 This project works with a social network dataset containing:
