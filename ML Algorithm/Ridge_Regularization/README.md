@@ -1,7 +1,6 @@
 # Machine Learning Practice – Ridge Regression (From Scratch) 🚀
 
 This repository contains my complete learning and implementation of **Ridge Regression**, including both theoretical understanding and practical implementation from scratch.
-
 ---
 
 # 📌 About Ridge Regression
