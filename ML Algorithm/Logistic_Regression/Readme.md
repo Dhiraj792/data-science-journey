@@ -3,7 +3,6 @@
 This project demonstrates the implementation of a **Perceptron algorithm from scratch** and compares it with **Logistic Regression** using a synthetic dataset.
 ---
 # Project Overview
-
 In this notebook, I explored:
 
 * Generating a classification dataset
