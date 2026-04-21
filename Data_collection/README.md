@@ -3,7 +3,6 @@
 This repository contains datasets and Jupyter notebooks focused on **data collection, data gathering techniques, and raw data handling** for Data Science.
 
 It covers multiple real-world data sources such as **CSV, JSON, APIs, and Web Scraping**, and prepares data for further **EDA and analysis**.
-
 ---
 
 # 📌 About This Repository
