@@ -1,128 +1,164 @@
-📉 Gradient Descent Implementation (Batch & Stochastic)
-📌 Project Overview
+# 📉 Gradient Descent Implementation (Batch & Stochastic) 🚀
 
-This project demonstrates the implementation of Batch Gradient Descent and Stochastic Gradient Descent from scratch using Python.
-The objective is to understand how different gradient descent variants optimize a cost function and how they differ in convergence behavior.
+This project demonstrates the implementation of **Batch Gradient Descent (BGD)** and **Stochastic Gradient Descent (SGD)** from scratch using Python.
 
-Both approaches are applied to a regression problem, and their performance is analyzed through loss reduction over iterations.
+The goal is to understand how different gradient descent variants **optimize a cost function** and how they differ in terms of **convergence behavior and efficiency**.
 
-🧠 Concepts Covered
+---
 
-Gradient Descent fundamentals
+# 📌 Project Overview
 
-Cost / Loss function
+* Implemented gradient descent algorithms from scratch
+* Applied to a regression problem
+* Compared performance using **loss vs iteration analysis**
+* Studied the impact of **learning rate on convergence**
 
-Learning rate
+---
 
-Batch Gradient Descent (BGD)
+# 📂 Project Structure
 
-Stochastic Gradient Descent (SGD)
-
-Convergence behavior
-
-📂 Project Structure
-📁 Gradient-Descent-Project
+```text id="gdt7bz"
+Gradient-Descent-Project/
 │
-├── Batch Gradient Descent.ipynb     # Implementation of Batch Gradient Descent
-├── StochasticGD.ipynb               # Implementation of Stochastic Gradient Descent
+├── Batch Gradient Descent.ipynb     # Batch Gradient Descent implementation
+├── StochasticGD.ipynb               # Stochastic Gradient Descent implementation
 ├── README.md                        # Project documentation
+```
 
-⚙️ Technologies Used
+---
 
-Python 🐍
+# 🧠 Concepts Covered
 
-NumPy
+* Gradient Descent fundamentals
+* Cost / Loss function
+* Learning rate
+* Batch Gradient Descent (BGD)
+* Stochastic Gradient Descent (SGD)
+* Convergence behavior
 
-Matplotlib
+---
 
-Jupyter Notebook
+# 📐 Mathematical Background
 
-📐 Mathematical Background (Brief)
+Gradient Descent updates parameters to minimize a cost function:
 
-Gradient Descent minimizes a cost function J(θ) by iteratively updating parameters:
-
+```
 θ = θ − α · (∂J(θ) / ∂θ)
-​
-	​
-
+```
 
 Where:
 
-θ → Model parameters
+* θ → Model parameters
+* α → Learning rate
+* J(θ) → Cost function
 
-α → Learning rate
+---
 
-J(θ) → Cost function
+# 🔁 Gradient Descent Variants
 
-🔁 Gradient Descent Variants
-🔹 Batch Gradient Descent
+## 🔹 1. Batch Gradient Descent (BGD)
 
-Uses entire dataset to compute gradients
+* Uses the **entire dataset** for each update
+* Smooth and stable convergence
+* Slower for large datasets
 
-Stable and smooth convergence
+### Update Rule:
 
-Slower for large datasets
+```
+θ = θ − α * (1/m) * Σ ∇J(θ)
+```
 
-Update Rule:
+📌 Implemented in: `Batch Gradient Descent.ipynb`
 
-θ = θ − α * (1/m) * Σ(i=1 to m) ∇J(θ)
+---
 
+## 🔹 2. Stochastic Gradient Descent (SGD)
 
-📌 Implemented in: Batch Gradient Descent.ipynb
+* Uses **one data point at a time**
+* Faster updates
+* Noisy but efficient for large datasets
 
-🔹 Stochastic Gradient Descent
+### Update Rule:
 
-  Uses one data point at a time
+```
+θ = θ − α * ∇J(θ(i))
+```
 
-  Faster updates
+📌 Implemented in: `StochasticGD.ipynb`
 
-  Noisy but efficient for large datasets
+---
 
-  Update Rule:
+# 📊 Observations
 
-  θ = θ − α * ∇J(θ(i))
+* BGD → Smooth convergence but slower
+* SGD → Faster but fluctuating convergence
+* Learning rate plays a **critical role**
+* Proper tuning leads to better performance
 
+---
 
-📌 Implemented in: StochasticGD.ipynb
+# ⚙️ Technologies Used
 
-📊 Observations
+* Python 🐍
+* NumPy
+* Matplotlib
+* Jupyter Notebook
 
-   Batch GD converges smoothly but takes more time per iteration
+---
 
-   SGD converges faster but with fluctuations
+# ▶️ How to Run
 
-   Learning rate significantly affects convergence
+### 1️⃣ Clone the Repository
 
-▶️ How to Run
+```bash id="uvm1xf"
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
 
-  Clone or download the repository
+---
 
-  Open Jupyter Notebook
+### 2️⃣ Open Jupyter Notebook
 
-  Run:
+```bash id="sx8j5h"
+jupyter notebook
+```
 
-  Batch Gradient Descent.ipynb
+---
 
-  StochasticGD.ipynb
+### 3️⃣ Run Notebooks
 
-  Observe loss vs iteration plots
+* `Batch Gradient Descent.ipynb`
+* `StochasticGD.ipynb`
 
-🎯 Learning Outcomes
+✔ Observe **loss vs iteration plots**
 
-    Clear understanding of how gradient descent works internally
+---
 
-    Difference between Batch and Stochastic GD
+# 🎯 Learning Outcomes
 
-    Importance of learning rate
+Through this project, I learned:
 
-    Practical experience with optimization algorithms
+* How gradient descent works internally
+* Difference between BGD and SGD
+* Impact of learning rate
+* Behavior of optimization algorithms
+* Practical implementation of ML concepts
 
-🚀 Future Enhancements
+---
 
-    Add Mini-Batch Gradient Descent
+# 🚀 Future Enhancements
 
-    Compare with Adam / RMSProp
+* Implement **Mini-Batch Gradient Descent**
+* Compare with **Adam, RMSProp**
+* Apply to real-world datasets
+* Add detailed convergence comparison plots
 
-    Apply to real-world datasets
+---
 
-    Add convergence comparison plots
+# 🌟 Conclusion
+
+This project builds a strong foundation in **optimization techniques**, which are essential for training Machine Learning models effectively.
+
+---
+
+⭐ Part of my **Machine Learning Learning Journey**
