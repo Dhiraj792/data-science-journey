@@ -20,7 +20,6 @@ It performs:
 * Recommendation generation
 
 ---
-
 # 📂 Repository Structure
 
 ```
