@@ -5,7 +5,6 @@ This project demonstrates the implementation of **Batch Gradient Descent (BGD)**
 The goal is to understand how different gradient descent variants **optimize a cost function** and how they differ in terms of **convergence behavior and efficiency**.
 
 ---
-
 # 📌 Project Overview
 
 * Implemented gradient descent algorithms from scratch
