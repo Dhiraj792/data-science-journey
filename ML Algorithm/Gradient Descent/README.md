@@ -3,7 +3,6 @@
 This project demonstrates the implementation of **Batch Gradient Descent (BGD)** and **Stochastic Gradient Descent (SGD)** from scratch using Python.
 
 The goal is to understand how different gradient descent variants **optimize a cost function** and how they differ in terms of **convergence behavior and efficiency**.
-
 ---
 # 📌 Project Overview
 
