@@ -4,7 +4,6 @@
 
 This project demonstrates how to **clean, process, and analyze social network data using Python**.
 It also implements basic **recommendation systems** for suggesting pages and friends.
-
 ---
 # 📌 Project Overview
 
