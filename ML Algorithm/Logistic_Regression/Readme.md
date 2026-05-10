@@ -4,7 +4,6 @@ This project demonstrates the implementation of a **Perceptron algorithm from sc
 ---
 # Project Overview
 In this notebook, I explored:
-
 * Generating a classification dataset
 * Visualizing data points
 * Implementing the **Perceptron algorithm manually**
