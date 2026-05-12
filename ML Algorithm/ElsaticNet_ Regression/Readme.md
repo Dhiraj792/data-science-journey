@@ -12,7 +12,6 @@ The project demonstrates:
 ---
 
 # 📌 Project Overview
-
 ElasticNet Regression is a regularized regression technique that combines:
 
 * **L1 Regularization (Lasso Regression)**
