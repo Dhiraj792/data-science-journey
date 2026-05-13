@@ -4,7 +4,6 @@ This repository contains datasets and Jupyter notebooks focused on **data collec
 It covers multiple real-world data sources such as **CSV, JSON, APIs, and Web Scraping**, and prepares data for further **EDA and analysis**.
 ---
 # 📌 About This Repository
-
 * Focused on **data acquisition and preprocessing**
 * Covers multiple **data formats and sources**
 * Includes **real-world datasets**
