@@ -8,7 +8,6 @@ The project compares:
 * Automated workflow using **Pipeline**
 
 ---
-
 # 📌 Project Overview
 
 Machine Learning pipelines help automate:
