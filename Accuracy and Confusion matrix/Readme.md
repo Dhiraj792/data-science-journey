@@ -248,7 +248,6 @@ Through this project, I learned:
 * Compare additional classification models
 * Visualize confusion matrices using heatmaps
 * Handle imbalanced datasets
-
 ---
 
 # 🌟 Conclusion
