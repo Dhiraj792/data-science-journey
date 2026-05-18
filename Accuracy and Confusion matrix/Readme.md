@@ -1,7 +1,6 @@
 # 📊 Accuracy, Precision, Recall & F1-Score in Machine Learning
 
 This project demonstrates the practical implementation of important Machine Learning classification evaluation metrics using Python and Scikit-learn.
-
 The notebook covers:
 
 * Accuracy
