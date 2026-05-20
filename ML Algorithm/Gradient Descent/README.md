@@ -10,7 +10,6 @@ The goal is to understand how different gradient descent variants **optimize a c
 * Applied to a regression problem
 * Compared performance using **loss vs iteration analysis**
 * Studied the impact of **learning rate on convergence**
-
 ---
 
 # 📂 Project Structure
