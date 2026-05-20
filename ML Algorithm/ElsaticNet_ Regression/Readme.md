@@ -8,7 +8,6 @@ The project demonstrates:
 * Model training and evaluation
 * Handling overfitting using ElasticNet
 * Practical implementation on training datasets
-
 ---
 
 # 📌 Project Overview
