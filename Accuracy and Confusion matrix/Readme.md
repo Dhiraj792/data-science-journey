@@ -2,7 +2,6 @@
 
 This project demonstrates the practical implementation of important Machine Learning classification evaluation metrics using Python and Scikit-learn.
 The notebook covers:
-
 * Accuracy
 * Precision
 * Recall
