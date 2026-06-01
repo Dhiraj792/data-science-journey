@@ -40,7 +40,6 @@ Data-Collection/
 * 📦 JSON Files
 * 🌐 APIs (Application Programming Interface)
 * 🕸️ Web Scraping
-
 ---
 
 ## 🔹 Data Handling & Processing
