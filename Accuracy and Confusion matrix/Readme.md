@@ -9,7 +9,6 @@ The notebook covers:
 * Confusion Matrix
 * Binary Classification
 * Multi-class Classification
-
 using:
 
 * Logistic Regression
