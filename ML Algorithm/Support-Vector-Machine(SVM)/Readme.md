@@ -11,7 +11,6 @@
  ┣ 📓 SVM_demo.ipynb
  ┗ 📓 SVM_kernel_trick.ipynb
 ```
-
 ---
 
 ## 📓 Notebooks
