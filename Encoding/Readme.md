@@ -4,7 +4,6 @@ This repository contains my practice and implementation of **Encoding Techniques
 
 The project focuses on converting categorical data into numerical format so that Machine Learning algorithms can process it effectively.
 ---
-
 # 📌 Project Overview
 
 Machine Learning models cannot work directly with categorical/text data.
