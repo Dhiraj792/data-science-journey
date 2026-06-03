@@ -4,7 +4,6 @@ This repository contains my practice and implementation of **Outlier Detection t
 
 The project focuses on identifying and analyzing abnormal/extreme values in datasets using statistical methods and visualizations.
 ---
-
 # 📌 Project Overview
 
 Outliers are data points that differ significantly from the majority of observations.
