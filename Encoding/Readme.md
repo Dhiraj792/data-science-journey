@@ -14,7 +14,6 @@ This project demonstrates:
 * One-Hot Encoding
 * Column Transformer usage
 * Feature preprocessing workflows
-
 ---
 
 # 📂 Repository Structure
