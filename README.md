@@ -11,7 +11,6 @@ This project works with a social network dataset containing:
 * Pages liked by users
 
 It performs:
-
 * Data cleaning and preprocessing
 * Relationship analysis
 * Recommendation generation
