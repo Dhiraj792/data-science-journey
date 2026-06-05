@@ -10,7 +10,6 @@ The notebook covers:
 * Binary Classification
 * Multi-class Classification
 using:
-
 * Logistic Regression
 * Decision Tree Classifier
 
