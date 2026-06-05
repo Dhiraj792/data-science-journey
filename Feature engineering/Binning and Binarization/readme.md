@@ -1,7 +1,6 @@
 # 🧹 Feature Engineering – Binning & Binarization 🚀
 
 This repository contains my practice and implementation of **Feature Engineering techniques** used in Machine Learning, specifically:
-
 * Binning
 * Binarization
 
