@@ -222,7 +222,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ## ⭐ Show Your Support
 
 If you found this helpful, **give it a star** ⭐ — it means a lot!
-
----
-
-*Made with ❤️ and lots of 🌳 trees*
