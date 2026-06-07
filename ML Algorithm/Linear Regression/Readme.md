@@ -51,7 +51,6 @@ y = mx + b
 ```
 
 Where:
-
 * `m` → slope
 * `b` → intercept
 
