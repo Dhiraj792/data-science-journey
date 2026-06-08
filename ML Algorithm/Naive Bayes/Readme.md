@@ -1,7 +1,6 @@
 # Naive Bayes Classifier — Play Tennis
 
 A from-scratch implementation of the **Naive Bayes (Maximum A Posteriori)** classifier applied to the classic Play Tennis dataset. Built manually using probability lookup tables — no sklearn, no magic.
-
 ---
 
 ## Dataset
