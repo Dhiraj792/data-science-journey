@@ -25,7 +25,6 @@ This project includes multiple implementations and experiments:
 * `ridge-regression-from-scratch(for n D).ipynb` → Implementation for n-dimensional data
 * `ridge-regression-gradient-descent.ipynb` → Gradient descent approach
 * `ridge-regression-using gradient-descent.ipynb` → Optimized gradient descent implementation
-
 ---
 
 # 🧠 Concepts Covered
