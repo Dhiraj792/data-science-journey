@@ -4,7 +4,6 @@
 ---
 
 ## 📁 Repository Structure
-
 ```
 📦 decision-tree-ml/
  ┣ 📓 dtreeviz_demo.ipynb
