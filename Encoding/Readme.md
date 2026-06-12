@@ -30,7 +30,6 @@ Encoding/
 ```
 
 ---
-
 # 🧠 Concepts Covered
 
 ## 🔹 Categorical Data Encoding
