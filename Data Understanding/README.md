@@ -9,7 +9,6 @@ It covers **univariate, bivariate, and multivariate analysis** along with multip
 * Covers **real-world analysis workflow**
 * Includes both **manual EDA and automated profiling**
 * Designed to strengthen **data analysis skills for projects and interviews**
-
 ---
 
 # 📁 Repository Structure
