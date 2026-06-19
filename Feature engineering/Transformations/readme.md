@@ -3,7 +3,6 @@
 This repository contains my practice and implementation of **Feature Transformation techniques** used in Machine Learning preprocessing.
 
 The project focuses on transforming data distributions to improve:
-
 * Model performance
 * Data normality
 * Feature scaling and stability
