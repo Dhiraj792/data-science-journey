@@ -5,9 +5,7 @@
 This project demonstrates the concept of **Ensemble Learning**, a machine learning technique that combines multiple models to improve prediction accuracy and robustness compared to a single model.
 
 Ensemble methods reduce overfitting, increase stability, and provide better generalization on unseen data.
-
 ---
-
 ## 🚀 Features
 
 * Implementation of popular ensemble algorithms:
