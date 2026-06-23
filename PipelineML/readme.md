@@ -1,7 +1,6 @@
 # ⚙️ Machine Learning Pipelines – Data Preprocessing & Model Workflow 🚀
 
 This repository demonstrates the use of **Machine Learning Pipelines** in Scikit-learn for handling data preprocessing and model training efficiently.
-
 The project compares:
 
 * Traditional ML workflow (**without pipeline**)
