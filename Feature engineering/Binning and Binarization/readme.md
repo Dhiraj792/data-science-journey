@@ -5,7 +5,6 @@ This repository contains my practice and implementation of **Feature Engineering
 * Binarization
 
 These preprocessing techniques help transform raw data into a format that improves model performance and interpretability.
-
 ---
 # 📌 Project Overview
 
