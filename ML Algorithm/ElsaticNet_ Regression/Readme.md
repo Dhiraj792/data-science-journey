@@ -14,7 +14,6 @@ ElasticNet Regression is a regularized regression technique that combines:
 
 * **L1 Regularization (Lasso Regression)**
 * **L2 Regularization (Ridge Regression)**
-
 It helps:
 
 * Reduce overfitting
