@@ -10,7 +10,6 @@ It covers **univariate, bivariate, and multivariate analysis** along with multip
 * Includes both **manual EDA and automated profiling**
 * Designed to strengthen **data analysis skills for projects and interviews**
 ---
-
 # 📁 Repository Structure
 
 ```text
