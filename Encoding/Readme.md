@@ -1,7 +1,6 @@
 # 🔤 Encoding & Feature Transformation in Machine Learning 🚀
 
 This repository contains my practice and implementation of **Encoding Techniques** and **Feature Transformation** used in Machine Learning preprocessing.
-
 The project focuses on converting categorical data into numerical format so that Machine Learning algorithms can process it effectively.
 ---
 # 📌 Project Overview
