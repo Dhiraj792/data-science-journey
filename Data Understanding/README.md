@@ -1,5 +1,4 @@
 # 📊 Exploratory Data Analysis (EDA) & Data Visualization 🚀
-
 This repository contains my hands-on practice of **Exploratory Data Analysis (EDA)** and **Data Visualization** using Python.
 
 It covers **univariate, bivariate, and multivariate analysis** along with multiple visualization techniques using **Matplotlib and Seaborn**.
