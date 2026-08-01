@@ -17,7 +17,6 @@ It performs:
 
 ---
 # 📂 Repository Structure
-
 ```
 data-science-journey/
 │── data.json
