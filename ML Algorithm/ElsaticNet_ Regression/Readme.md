@@ -3,7 +3,6 @@
 This repository contains my practice and implementation of **ElasticNet Regression** using Python and Scikit-learn.
 
 The project demonstrates:
-
 * Regularization techniques in Machine Learning
 * Model training and evaluation
 * Handling overfitting using ElasticNet
