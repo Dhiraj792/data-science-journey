@@ -11,7 +11,6 @@ The notebook covers:
 using:
 * Logistic Regression
 * Decision Tree Classifier
-
 ---
 
 # 📂 Repository Structure
