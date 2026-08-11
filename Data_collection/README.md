@@ -9,7 +9,6 @@ It covers multiple real-world data sources such as **CSV, JSON, APIs, and Web Sc
 * Serves as a foundation for **EDA, ML, and analytics projects**
 ---
 # 📁 Repository Structure
-
 ```text id="zv5xnf"
 Data-Collection/
 ├── DateMonthYear.csv                # Date & time-based dataset
