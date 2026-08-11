@@ -5,7 +5,6 @@ The project focuses on converting categorical data into numerical format so that
 ---
 # 📌 Project Overview
 Machine Learning models cannot work directly with categorical/text data.
-
 This project demonstrates:
 
 * Different encoding techniques
