@@ -6,7 +6,6 @@ This project demonstrates the concept of **Ensemble Learning**, a machine learni
 Ensemble methods reduce overfitting, increase stability, and provide better generalization on unseen data.
 ---
 ## 🚀 Features
-
 * Implementation of popular ensemble algorithms:
 
   * Bagging
