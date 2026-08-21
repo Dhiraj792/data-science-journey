@@ -7,7 +7,6 @@ Ensemble methods reduce overfitting, increase stability, and provide better gene
 ---
 ## 🚀 Features
 * Implementation of popular ensemble algorithms:
-
   * Bagging
   * Random Forest
   * Boosting
