@@ -11,7 +11,6 @@ These preprocessing techniques help transform raw data into a format that improv
 Feature Engineering is an important step in the Machine Learning pipeline.
 
 This project focuses on:
-
 * Converting continuous data into categories
 * Transforming numerical values into binary format
 * Understanding preprocessing techniques for ML models
