@@ -3,7 +3,6 @@
 A **K-Nearest Neighbors classifier** built with scikit-learn to predict whether a breast tumor is **Malignant (M)** or **Benign (B)**, including hyperparameter tuning and interactive decision boundary visualization.
 
 ---
-
 ## Dataset
 
 **`breast_cancer.csv`** — 569 samples, 30 numeric features extracted from digitized images of fine needle aspirate (FNA) of breast masses.
