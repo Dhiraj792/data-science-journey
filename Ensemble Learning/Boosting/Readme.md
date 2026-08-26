@@ -30,8 +30,6 @@ Combine All Models
 Strong Final Model
 ```
 
----
-
 ## 🎯 Objectives
 
 The main objectives of this project are:
