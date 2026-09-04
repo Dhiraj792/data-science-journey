@@ -6,7 +6,6 @@
 
 Instead of training one powerful model, boosting trains multiple models **sequentially**. Each new model focuses more on the mistakes made by the previous models.
 The final prediction is made by combining the predictions of all the weak learners.
-
 ### Basic Idea
 
 ```text
