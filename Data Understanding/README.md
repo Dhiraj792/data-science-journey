@@ -10,7 +10,6 @@ It covers **univariate, bivariate, and multivariate analysis** along with multip
 * Designed to strengthen **data analysis skills for projects and interviews**
 ---
 # 📁 Repository Structure
-
 ```text
 EDA-Visualization/
 ├── BarChart.ipynb              # Bar chart visualizations
