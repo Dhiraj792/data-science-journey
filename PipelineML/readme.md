@@ -5,7 +5,6 @@ The project compares:
 
 * Traditional ML workflow (**without pipeline**)
 * Automated workflow using **Pipeline**
-
 ---
 # 📌 Project Overview
 
