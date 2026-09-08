@@ -12,7 +12,6 @@ using:
 * Logistic Regression
 * Decision Tree Classifier
 ---
-
 # 📂 Repository Structure
 
 ```text
