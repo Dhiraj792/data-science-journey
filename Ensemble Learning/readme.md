@@ -16,7 +16,6 @@ Ensemble methods reduce overfitting, increase stability, and provide better gene
 * Performance comparison between individual models and ensemble models
 * Visualization of results
 * Support for classification and regression tasks
-
 ---
 
 ## 📂 Project Structure
