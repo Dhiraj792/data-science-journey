@@ -12,7 +12,6 @@ In this notebook, I explored:
 * Observing how data separation affects model performance
 ---
 # 1. Dataset Generation
-
 ```python
 from sklearn.datasets import make_classification
 
