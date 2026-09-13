@@ -29,7 +29,6 @@ Data-Collection/
 ```
 
 ---
-
 # 🧠 Concepts Covered
 
 ## 🔹 Data Collection Methods
