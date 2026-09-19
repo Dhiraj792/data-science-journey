@@ -18,7 +18,6 @@ Ensemble methods reduce overfitting, increase stability, and provide better gene
 * Support for classification and regression tasks
 ---
 ## 📂 Project Structure
-
 ```
 Ensemble-Learning/
 │
