@@ -22,7 +22,6 @@ This project focuses on understanding:
 * Benefits of reusable preprocessing steps
 
 ---
-
 # 📂 Repository Structure
 
 ```text id="4g2cmz"
