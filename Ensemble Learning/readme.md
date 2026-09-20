@@ -33,7 +33,6 @@ Ensemble-Learning/
 ├── README.md
 └── main.py
 ```
-
 ---
 
 ## 🛠 Technologies Used
