@@ -11,7 +11,6 @@ This project demonstrates:
 * Column Transformer usage
 * Feature preprocessing workflows
 ---
-
 # 📂 Repository Structure
 
 ```text id="x0j0jm"
