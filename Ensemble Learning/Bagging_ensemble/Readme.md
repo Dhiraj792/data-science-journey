@@ -5,7 +5,6 @@ This project demonstrates the concept and implementation of **Bagging (Bootstrap
 The main objective of this project is to understand how multiple models can be trained on different samples of the same dataset and then combined to produce a more stable and reliable prediction.
 
 ---
-
 # 📌 Project Overview
 
 **Bagging** stands for **Bootstrap Aggregating**.
