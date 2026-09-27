@@ -11,7 +11,6 @@ The goal is to understand how different gradient descent variants **optimize a c
 * Compared performance using **loss vs iteration analysis**
 * Studied the impact of **learning rate on convergence**
 ---
-
 # 📂 Project Structure
 
 ```text id="gdt7bz"
